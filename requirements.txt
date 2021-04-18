@@ -5,4 +5,3 @@ nltk=3.5
 torchmetrics=0.3.0.dev0
 pytorch-lightning=1.2.4
 pytorch-metric-learning=0.9.97
-pytorch
