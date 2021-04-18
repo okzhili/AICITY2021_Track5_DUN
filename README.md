@@ -28,6 +28,7 @@ python model2.py
 
 ## test
 ```bash
+python model.py
 -root dataset_nl/AIC21_Track5_NL_Retrieval
 -use_bn
 -test
@@ -37,6 +38,7 @@ python model2.py
 -glove_file 6B.300d.npy
 ```
 ```bash
+python model2.py
 -root dataset_nl/AIC21_Track5_NL_Retrieval
 -use_bn
 -test
@@ -46,6 +48,7 @@ python model2.py
 -glove_file 6B.300d.npy
 ```
 ```bash
+python model2.py
 -root dataset_nl/AIC21_Track5_NL_Retrieval
 -test
 -save_num 3
