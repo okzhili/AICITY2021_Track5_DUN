@@ -1,3 +1,4 @@
+This code is modified from the second place solution of aicity 2020. The original repository is [VOC-ReID](https://github.com/Xiangyu-CAS/AICity2020-VOC-ReID)
 ### Prepare Data
 - Download CityFlowV2-ReID and VehicleX
 , rename them to 'AIC21_Track2_ReID' and 'AIC21_Track2_ReID_Simulation' respectively.
@@ -37,7 +38,6 @@ DATASETS.ROOT_DIR "('/home/zxy/data/ReID/vehicle')" \
 MODEL.PRETRAIN_CHOICE "('self')" \
 TEST.WEIGHT "('xx/final.pth')"
 
-# AIC20_ReID_cropped will be saved at './output/aicity20/0326-search/augmix/'
 # dont forget to uncomment aicity20.py line 49 # train += self._process_dir(self.train_aug_dir, self.list_train_path, self.train_label_path, relabel=False)
 
 ````
