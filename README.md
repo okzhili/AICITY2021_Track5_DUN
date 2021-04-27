@@ -29,7 +29,7 @@ python model2.py
 -glove_file 6B.300d.npy
 ```
 
-## test
+## Test
 ```bash
 python model.py
 -root dataset_nl/AIC21_Track5_NL_Retrieval
