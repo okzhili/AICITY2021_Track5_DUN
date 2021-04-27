@@ -62,3 +62,9 @@ python ens.py
 You can download our [re-ID feature](https://drive.google.com/drive/folders/1n7-hUWaXtMmoWlQgpxL79aqFXwyTBY1s?usp=sharing)(tran_file and test_file) and [glove pre-trained word vector](https://drive.google.com/file/d/1-eVvsy_8hJJ3xVcxpsbLh1nlTyRG_n15/view?usp=sharing)
 
 You can also retrain the re-ID model to get these two files, please refer to [re-ID](https://github.com/okzhili/AICITY2021_Track5_DUN/tree/main/re-ID)
+## Leaderboard
+|TeamName|mAP|Link|
+|--------|----|-------|
+|Alibaba-UTS|0.1896|[code](https://github.com/michuanhaohao/AICITY2021_Track2_DMT)|
+|**TimeLab(Ours)**|0.1613|[code](https://github.com/okzhili/AICITY2021_Track5_DUN)|
+|SBUK|0.1594|code|
