@@ -58,7 +58,7 @@ Download ImageNet pretrain model at [here](https://drive.google.com/drive/folder
 python tools\train.py --config_file='configs/aicity21.yml'
 ```
 ## get_feature
-use get_frame.py get the frames of video
+Firstly, use get_frame.py to get the frames of video
 ```
 python get_vision_feature --config_file='configs/aicity21.yml' -track_file AIC21_Track5_NL_Retrieval/data/train-tracks.json -save_file train.pkl -root xx
 ```
