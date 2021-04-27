@@ -65,6 +65,6 @@ You can also retrain the re-ID model to get these two files, please refer to [re
 ## Leaderboard
 |TeamName|mAP|Link|
 |--------|----|-------|
-|Alibaba-UTS|0.1896|[code](https://github.com/michuanhaohao/AICITY2021_Track2_DMT)|
+|Alibaba-UTS|0.1896|[code](https://github.com/ShuaiBai623/AIC2021-T5-CLV)|
 |**TimeLab(Ours)**|0.1613|[code](https://github.com/okzhili/AICITY2021_Track5_DUN)|
 |SBUK|0.1594|code|
