@@ -26,7 +26,7 @@ DATASETS.ROOT_DIR "('/home/zxy/data/ReID/vehicle')" \
 OUTPUT_DIR "('xx')"
 
 # step2: use inital model to crop vehicles
-python tools/aicity20/weakly_supervised_crop_aug.py --config_file='configs/aicity20.yml' \
+python tools/aicity20/weakly_supervised_crop_aug.py --config_file='configs/aicity21.yml' \
 MODEL.DEVICE_ID "('0')" \
 MODEL.NAME "('resnet50_ibn_a')" \
 MODEL.MODEL_TYPE "baseline" \
