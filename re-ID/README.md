@@ -1,7 +1,7 @@
 This code is modified from the second place solution of aicity 2020. The original repository is [VOC-ReID](https://github.com/Xiangyu-CAS/AICity2020-VOC-ReID)
 ## Inference Using Trained Model
-Download the pre-trained weight at [here](https://drive.google.com/file/d/1CF87R4YQ-rK1aplkbaArEYGEFcpKLgm6/view?usp=sharing)
-Use get_frame.py to get the frames of video
+-Download the pre-trained weight at [here](https://drive.google.com/file/d/1CF87R4YQ-rK1aplkbaArEYGEFcpKLgm6/view?usp=sharing)
+-Use get_frame.py to get the frames of video
 ```
 python get_vision_feature --config_file='configs/aicity21.yml' -track_file AIC21_Track5_NL_Retrieval/data/train-tracks.json -save_file train.pkl -root xx
 ```
